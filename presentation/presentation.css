@@ -1,0 +1,157 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-wrap: break-word;
+}
+header{
+    width: 400px;
+    height: 250px;
+    border:  2px solid rgba(128, 128, 128, 0.13);
+    /* padding: 10px; */
+    margin:  0 auto;
+    position:fixed;
+    left:  99%;
+    margin-right: 20px;
+    transform: translateX(-100%);
+}
+#Text-header>input{
+ width: 100%;
+ padding: 10px 0;
+}
+#Text-header>button{
+    float: right;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#Text-dis >input{
+    padding: 10px 0;
+    width: 100%;
+}
+#Text-dis >button{
+    float: right;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+#aside{
+    position:absolute;
+    top:  0;
+    background-color: rgb(128, 128, 128);
+    width: 230px;
+    height: 100%;
+    padding: 10px;
+   
+}
+#aside input{
+    padding: 7px 0;
+    width: 95%;
+    margin: top 10px;
+    outline: none;
+}
+#aside button{
+    float: right;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+.li{
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align:center ;
+}
+.text{
+    list-style-type: none;
+    font-size: 20px;
+    margin-top: 5px;
+    padding-right: 20px;
+    
+}
+.aside-name{
+    list-style-type: none;
+    font-size: 20px;
+    padding-top: 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+#subword-to-create-wrapper{
+   position: absolute;
+   bottom: 50px;
+   padding: 0 10px;
+   
+}
+#subword-to-create-wrapper>input{
+    margin-top: 10px;
+    
+    width: 98%;
+}
+
+#open-aside{
+    padding: 10px 20px;
+    margin-top: 10px 0   0 10px ;
+}
+label{
+  display: block;
+  width: 100px;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  margin: 55px auto;
+  padding: 12px;
+  cursor: pointer;
+
+}
+#input-file{
+    display: none;
+}
+.image{
+    width: 250px;
+    margin-top: 10px;
+}
+#open-right{
+    float: right;
+    padding: 10px 20px;
+   
+}
+
+
+#middle-wrapper{
+    text-align: center;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 100px;
+    border: 1px solid rgba(128, 128, 128, 0.342);
+    background-color: white;
+    width: 450px;
+    height: 350px;
+    
+}
+
+#middle-btn{
+    padding: 10px 35px;
+    background-color: red;
+    outline: none;
+    border: none;
+   
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+    
+}
+#middle-dis{
+    text-align: left;
+    padding: 0 10px;
+}
+#aside-value{
+    margin-top: 60px;
+}

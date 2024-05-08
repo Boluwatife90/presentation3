@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./presentation.css">
+</head>
+<body>
+    <button id="open-aside">Open</button>
+    <button id="open-right">Open</button>
+<header  id="right-menu" class="hide">
+    <div id="Text-header">
+        <input id="header-text" placeholder="Text Header..." type="text">
+        <button id="text-header-btn">Create Header</button>
+    </div>
+
+    <div  id="Text-dis">
+        <textarea id="dis-text"  rows="10" cols="52">
+
+        </textarea>
+        <!-- <input id="dis-text" placeholder="Text  discription..." type="text"> -->
+        <button id="text-dis-btn">Create discription</button>
+        <label for="input-file"> update image</label>
+    <input type="file" accept="image/jpg , image/jpeg, image/png" id="input-file">
+    </div>
+   
+</header>
+
+
+
+<main>
+    <ul id="main-word">
+
+    </ul>
+
+    
+    <div id="aside" class="hide" >
+        <button  class="show" id="close-btn">Close</button>
+        <ul id="aside-value">
+
+        </ul>
+       
+        
+        <div id="subword-to-create-wrapper" >
+            <input id="subword" placeholder="Name..." type="text">
+            
+            <input id="subdis" placeholder="discription..." type="text">
+            <button id="subBtn">Create name </button>
+        </div>
+        
+    </div>
+</main>
+
+
+
+    
+
+
+       
+</div>
+</main>
+<div class="hide" id="middle-wrapper">
+    <h1 id="middle-header"> </h1>
+    <p id="middle-dis"></p>
+    <button id="middle-btn"> Okay</button>
+</div>
+    <script src="./presentation.js"></script>
+</body>
+</html>
